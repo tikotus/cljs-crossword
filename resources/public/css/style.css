@@ -1,0 +1,52 @@
+/* some style */
+
+.row {
+  display: flex;
+}
+.slot {
+  background-color: #ccccff;
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.active {
+  background-color: #aaaaff;
+}
+.char {
+  display: block;
+  font-size: 22px;
+  margin: 0px;
+  text-transform: uppercase;
+  background: transparent;
+  border: none;
+  transform: translateY(0px);
+}
+
+.correct {
+  background-color: #aaaaff;
+}
+
+.main {
+  background-color: #aaffaa;
+}
+
+.empty {
+  display: table-cell;
+  width: 42px;
+  height: 40px;
+  min-width: 42px;
+  text-align: center;
+  background-color: transparent;
+}
+
+.grid {
+  display: inline-block;
+}
+
+.hints {
+  margin-left: 100px;
+  display: inline-block;
+}
